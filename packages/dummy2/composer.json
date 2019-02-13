@@ -1,0 +1,14 @@
+{
+    "name": "hs040x/dummy2",
+    "authors": [
+        {
+            "name": "hs040x",
+            "email": "hsitohang@wayfair.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Package\\Dummy2\\": "src/"
+        }
+    }
+}
