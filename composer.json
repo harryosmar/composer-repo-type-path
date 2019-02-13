@@ -34,7 +34,7 @@
   ],
   "require": {
     "phpunit/phpunit": "~5.7",
-    "hs040x/dummy1": "dev-master",
+    "hs040x/dummy1": "dev-dummy1-update",
     "hs040x/dummy2": "dev-master"
   },
   "scripts": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c9e6cf38508004d8c92d815b58ea446",
+    "content-hash": "46f6d34c39e36f12a9d62176af93962f",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -62,7 +62,7 @@
         },
         {
             "name": "hs040x/dummy1",
-            "version": "dev-master",
+            "version": "dev-dummy1-update",
             "dist": {
                 "type": "path",
                 "url": "./packages/dummy1",
