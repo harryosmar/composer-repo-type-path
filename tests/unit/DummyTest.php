@@ -17,7 +17,10 @@ class DummyTest extends TestCase {
    */
   public function shouldBeAbleToCreateTestObject() {
     $parentTest = new Dummy(new A(), new B());
-    $this->assertInstanceOf(A::class, $parentTest->getA());
+    $a          = $parentTest->getA();
+
+    $this->assertInstanceOf(A::class, $a);
     $this->assertInstanceOf(B::class, $parentTest->getB());
+    $this->assertEquals('A', $a->getName());
   }
 }

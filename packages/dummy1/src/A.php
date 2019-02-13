@@ -7,5 +7,7 @@
 namespace Package\Dummy1;
 
 class A {
-
+  public function getName() : string {
+    return 'A';
+  }
 }
