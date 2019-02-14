@@ -35,7 +35,7 @@
   "require": {
     "phpunit/phpunit": "~5.7",
     "hs040x/dummy1": "dev-master",
-    "hs040x/dummy2": "dev-master"
+    "hs040x/dummy2": "dev-dummy2-update"
   },
   "scripts": {
     "test": "./vendor/bin/phpunit -c phpunit.xml --debug"
