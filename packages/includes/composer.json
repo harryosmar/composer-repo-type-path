@@ -1,6 +1,6 @@
 {
   "name": "hs040x/includes",
-  "version": "dev-master",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "hs040x",
