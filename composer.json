@@ -1,5 +1,7 @@
 {
   "name": "hs040x/composer-parent",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "hs040x",
