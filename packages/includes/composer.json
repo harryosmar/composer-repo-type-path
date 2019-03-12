@@ -1,18 +1,10 @@
 {
   "name": "hs040x/includes",
+  "version": "dev-master",
   "authors": [
     {
       "name": "hs040x",
       "email": "hsitohang@wayfair.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../tobeincluded/*",
-      "options": {
-        "symlink": false
-      }
     }
   ],
   "require": {

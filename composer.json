@@ -16,7 +16,20 @@
       "App\\Tests\\": "tests/"
     }
   },
+  "require": {
+    "phpunit/phpunit": "~5.7",
+    "hs040x/dummy1": "dev-master",
+    "hs040x/dummy2": "dev-master",
+    "hs040x/includes": "dev-master"
+  },
   "repositories": [
+    {
+      "type": "path",
+      "url": "./includes/*",
+      "options": {
+        "symlink": false
+      }
+    },
     {
       "type": "path",
       "url": "./packages/*",
@@ -25,12 +38,6 @@
       }
     }
   ],
-  "require": {
-    "phpunit/phpunit": "~5.7",
-    "hs040x/dummy1": "dev-master",
-    "hs040x/dummy2": "dev-master",
-    "hs040x/includes": "dev-master"
-  },
   "scripts": {
     "test": "./vendor/bin/phpunit -c phpunit.xml --debug"
   }
