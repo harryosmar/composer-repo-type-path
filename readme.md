@@ -58,7 +58,7 @@ composer.json
 }
 ```
 
-> `"minimum-stability": "dev"`, is needed because the package [includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) is require 2 more packages using `dev-master`. That's means [includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) is not a stable version.
+> `"minimum-stability": "dev"`, is needed because the package [hs040x/includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) is require 2 more packages using `dev-master`. That's means [hs040x/includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) is not a stable version.
 
 > To avoid use of `"minimum-stability": "dev"` for external packages : `"prefer-stable": true` is needed. If the package has a stable version then prefer to use it.
 
