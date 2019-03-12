@@ -1,4 +1,6 @@
-# Experiment Use of > Composer Repositories Type Path
+# Composer Repositories Type Path
+
+> Experiment Use of > Composer Repositories Type Path
 
 ## Code Structure
 
