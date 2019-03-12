@@ -1,0 +1,14 @@
+{
+    "name": "hs040x/include1",
+    "authors": [
+        {
+            "name": "hs040x",
+            "email": "hsitohang@wayfair.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Package\\Include1\\": "src/"
+        }
+    }
+}
