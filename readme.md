@@ -27,8 +27,8 @@ composer.json
   - package [hs040x/dummy1](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy1)
   - package [hs040x/dummy2](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy2)
   - package [hs040x/includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) will include another 2 more packages from [includes/](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes) folder :
-      - [include1/](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include1)
-      - [include2/](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include2)
+      - [hs040x/include1](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include1)
+      - [hs040x/include2](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include2)
 - root [composer.json](https://github.com/harryosmar/composer-repo-type-path/blob/master/composer.json) will load this `2 dummies package`, `1 root include composer.json` (* this root include will include 2 more libraries : `include1`, `include2`) :
 ```json
 {
