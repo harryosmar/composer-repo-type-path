@@ -24,9 +24,9 @@ composer.json
 ```
 
 - [packages/](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages) is a folder contained all the packages such as :
-  - package [dummy1/](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy1)
-  - package [dummy2/](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy2)
-  - package [includes/](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes)
+  - package [hs040x/dummy1](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy1)
+  - package [hs040x/dummy2](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/dummy2)
+  - package [hs040x/includes](https://github.com/harryosmar/composer-repo-type-path/tree/master/packages/includes) will include another 2 more packages :
       - [include1/](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include1)
       - [include2/](https://github.com/harryosmar/composer-repo-type-path/tree/master/includes/include2)
 - root [composer.json](https://github.com/harryosmar/composer-repo-type-path/blob/master/composer.json) will load this `2 dummies package`, `1 root include composer.json` (* this root include will include 2 more libraries : `include1`, `include2`) :
@@ -37,14 +37,14 @@ composer.json
   "repositories": [
     {
       "type": "path",
-      "url": "./packages/dummy1",
+      "url": "./includes/*",
       "options": {
         "symlink": false
       }
     },
     {
       "type": "path",
-      "url": "./packages/dummy2",
+      "url": "./packages/*",
       "options": {
         "symlink": false
       }
